@@ -1,0 +1,14 @@
+<html>
+<head>
+    <script>
+        window.onload = function () {
+            var url = window.location.href;
+            var email = url.split("?")[1];
+            document.getElementById("email_name").innerHTML = "Hi " + email   
+        }
+    </script>
+</head>
+<body>
+    <h1 id="email_name">Welcome ......</h1>
+</body>
+</html>
